@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+*{
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* FIRST_SECTION */
+.thumb_down{
+    transform: scale(1.3);
+}
+
+.first_grid_area{
+    text-align: center;
+}
+
+
+
+/* BOOK_COMPONENTS */
+.imgs{
+   width: 150px;
+   height: 200px;
+}
+
+
+/* BOOK_JSX */
+
+@media screen and (max-width: 780px) {
+    .imgs{
+width: 100%;
+height: 250px;
+    }
+
+.header{
+        width: 100%;
+        content: none;
+    }
+
+  }
+
+  @media screen and (max-width: 1200px) {
+    .imgs{
+width: 100%;
+height:auto;
+    }
+  }
+
+.thred{
+    height: 500px;
+    
+}
+
+.see{
+    margin-top: 60px;
+}
+
+input{
+    width: auto;
+}
+
+button{
+    width: 100%;
+    
+}
+
+
+
+/* COLOR FIRST */
+
+.common{
+    box-shadow:1px 1px 5px  rgb(29, 15, 15);
+    background-color:white;
+}
+
+
+.bookCard{
+    box-shadow:1px 1px 5px  rgb(29, 15, 15);
+}
+
+
+/* stars */
+
+.background-red{
+ cursor: pointer;
+ color: rgba(255, 255, 0, 0.829);
+fill: rgba(255, 255, 0, 0.842);
+
+}
+
+/* THUMB UP AND  THUMB DOWN */
+
+.fillColorUp{
+    fill: rgb(22, 47, 190);
+    color:rgb(22, 47, 190) ;
+}
+
+.fillColorDown{
+fill: rgb(90, 16, 3);
+color: rgb(90, 16, 3);
+}
+
+.google_img{
+width: 50%;
+height: 30px;
+}
+
+/* HEADER SECTION */
+
+.header{
+    text-align: center;
+    line-height: 300px;
+    position: sticky;
+    top: 10px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.1));
+    color: rgb(82, 82, 177);
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-weight: bolder;
+    font-family: 'Akaya Telivigala', cursive;
+    box-shadow: 2px 3px 5px black;
+    text-shadow: 0px 3px 2px black;
+
+}
+
+
+/* SHOP */
+
+.shopingCard{
+   margin-left: 60px;
+   color: black;
+}
+
+.numbers{
+ font-size: 18px;
+ background-color:rgb(146, 14, 14);
+ border-radius: 20px;
+ color:#fff;
+ text-shadow: none;
+ top:-18px;
+ left: -5px;
+ align-items: center;
+}
+
+.icons{
+    font-size: 40px;
+
+}
